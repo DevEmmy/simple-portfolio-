@@ -1,0 +1,188 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+
+header{
+    margin-top: 0;
+    background: white;
+}
+
+.nav-bar .hamburger-menu{
+    width: 30px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.hamburger-menu .line{
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background: rgb(10,10,60);
+    margin-top: 4px;
+}
+
+.nav-items{
+    background: rgb(10,10,70);
+    width: 100%;
+    padding: 10px;
+    margin-top: -500px;
+    transition: all .3s ease-out;
+    border-radius: 0 0 10px 10px;
+    box-sizing: border-box;
+}
+
+.nav-items ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-items li{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 0;
+    letter-spacing: 0.15em;
+}
+
+.nav-items a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-items a:active{
+    color: white;
+}
+
+.nav-items a:visited{
+    color: white;
+}
+
+.resp .nav-items{
+    display: block;
+    margin-top: 0;
+}
+
+.content{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content h1{
+    color: rgb(10,10,70);
+    font-family: verdana;
+}
+
+.content h3{
+    margin-top: -10px;
+    font-family: cursive;
+    color: rgb(10,10,60);
+}
+
+.content p{
+    background: rgb(10,10,70);
+    padding: 20px;
+    color: white;
+    font-size: 19px;
+    font-family: arial;
+    line-height: 1.5;
+}
+
+.services{
+    padding: 20px;
+    margin-top: 20px;
+    color: rgb(100,100,100);
+}
+
+.services h2{
+    color: rgb(10,10,60);
+    font-family: verdana;
+}
+
+.services p{
+    font-size: 18px;
+}
+.services li{
+    padding: 10px;
+}
+
+.about{
+    padding: 20px;
+    margin-top: 20px;
+    color: rgb(100,100,100);
+    text-align: center;
+}
+
+.about h2{
+    color: rgb(10,10,60);
+    font-family: verdana;
+}
+
+.about p{
+    font-size: 18px;
+}
+.about li{
+    padding: 10px;
+}
+
+.contact{
+    padding: 20px;
+    margin-top: 2px;
+    color: rgb(100,100,100);
+}
+
+.contact h2{
+    color: rgb(10,10,60);
+    font-family: verdana;
+}
+
+.contact p{
+    font-size: 18px;
+}
+.contact li{
+    padding: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input{
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: 2px solid rgb(10,10,60);
+    background: white;
+    border-radius: 6px;
+}
+input:focus{
+    outline: none;
+}
+
+.direct-message{
+    font-size: 20px;
+    font-family: verdana;
+    color: rgb(10,10,70);
+}
+
+.contact input[type=submit]{
+    background: rgb(10,10,60);
+    color: white;
+}
+
+footer{
+    background: rgb(10,10,70);
+    padding:10px 20px;
+    color: white;
+}
+
+footer p{
+    font-size: 15px;
+    font-family: verdana;
+    text-align: center;
+}
